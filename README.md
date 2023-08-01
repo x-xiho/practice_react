@@ -30,6 +30,18 @@ state
 
 ```
 
+#### react에 powerBI 넣는법
+1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력  
+
+```
+powerbi-client-react": "^1.4.0" 
+```
+
+2. App.js에 다음과 같이 입력
+```
+import { PowerBIEmbed } from 'powerbi-client-react';
+```
+
 
 
 
