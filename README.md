@@ -14,9 +14,9 @@
 * vsc에서 프로젝트 파일 오픈 후 터미널에 아래 문장 입력하여 세팅하기
 
 ```npx create-react-app <프로젝트 명>```  
-* axios 설치
-```npm i -save axios
-import axios from 'axios' ```
+* axios 설치  
+```npm i -save axios```  
+```import axios from```   
 
 ### react 화면 띄우기 
 
