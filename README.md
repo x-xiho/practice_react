@@ -48,7 +48,7 @@ npm i react-router-dom
 
 **2. react-router-dom import하기**
 ```
-import {BrowserRouter, Route, Switce} from 'react-router-dom'
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
 ```
 
 **3. 라우팅 포맷**
