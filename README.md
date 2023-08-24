@@ -5,6 +5,7 @@
 - [ ] azure 사용방법 익히기 -> 녹화강의 복습
 - [ ] 리액트 훅 익히기
 - [ ] 백엔드 이해
+- [ ] axios 공부
       
 
 ### VSC에 React 세팅하는 방법
@@ -13,6 +14,8 @@
 * vsc에서 프로젝트 파일 오픈 후 터미널에 아래 문장 입력하여 세팅하기
 
 ```npx create-react-app <프로젝트 명>```  
+* axios 설치
+```npm i -save axios```
 
 ### react 화면 띄우기 
 
