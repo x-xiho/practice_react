@@ -25,6 +25,7 @@ npm start
 
 
 ### react에 powerBI 넣는법
+*[리액트 파워비아이 임베딩 참고영상](https://blog.naver.com/jimin201396/223160116243)
 1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력  
 
 ```
