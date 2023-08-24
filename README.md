@@ -15,7 +15,8 @@
 
 ```npx create-react-app <프로젝트 명>```  
 * axios 설치
-```npm i -save axios```
+```npm i -save axios
+import axios from 'axios' ```
 
 ### react 화면 띄우기 
 
