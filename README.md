@@ -1,20 +1,20 @@
 #react 연습 < 나 혼자 보는 메모장 >
 ---
 - [ ] power BI 사용법 익히기
-- [ ] 리액트에 power Bi 불러오는 법
-- [ ] 리액트 기초 강의 공부 -> 컴포넌트, State란 무엇인지 어떤 상황에 사용해야한느지 등
 - [ ] 데이터 시각화 자료 레퍼런스 모으기 -> 지도 위주면 좋고
 - [ ] azure 사용방법 익히기 -> 녹화강의 복습
+- [ ] 리액트 훅 익히기
+- [ ] 백엔드 이해
       
 
-#### VSC에 React 세팅하는 방법
+### VSC에 React 세팅하는 방법
 * node.js 설치
 * 프로젝트 파일 생성
 * vsc에서 프로젝트 파일 오픈 후 터미널에 아래 문장 입력하여 세팅하기
 
 ```npx create-react-app <프로젝트 명>```  
 
-#### react 미리보기 하는 방법  
+### react 화면 띄우기 
 
 ```
 cd <프로젝트명>
@@ -23,14 +23,8 @@ npm start
 
 * 꼭 cd 프로젝트명 먼저 입력 후 미리보기 시작할 것!
 
-#### react 꼭 알아야하는 문법  
-```
-state
-{ } 
 
-```
-
-#### react에 powerBI 넣는법
+### react에 powerBI 넣는법
 1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력  
 
 ```
@@ -43,6 +37,38 @@ import { PowerBIEmbed } from 'powerbi-client-react';
 ```
 
 
+### 리액트 페이지 연결하기 ( react-router-dom)
+
+*[리액트 라우팅 참고영상](https://www.youtube.com/watch?v=xVeFY1Eq28g)  
+
+**1. 리액트 라우터 돔 모듈 설치하기**
+```
+npm i react-router-dom
+```
+
+**2. react-router-dom import하기**
+```
+import {BrowserRouter, Route, Switce} from 'react-router-dom'
+```
+
+**3. 라우팅 포맷**
+```
+<BrowserRouter>
+<Routes>
+<Route path="/" element={App.js}/>
+</Routes>
+</BrowserRouter>
+```
+
+
+
+### 부트스트랩 설치
+```
+npm install react-bootstrap bootstrap
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 
 ---
