@@ -26,6 +26,10 @@ axios.get("URL")
 .then(response => consol.log(response.data))
 ```
 axios의 반환은 promise ( fetch와 동일 )
+단 데이터를 전달할 때 한 번에 data: ~~~ 로 주기 때문에 json 변형 과정을 안 거쳐도 됨.
+
+* async await 문법
+
 
 
    
