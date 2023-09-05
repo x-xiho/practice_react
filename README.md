@@ -7,6 +7,7 @@
 - [ ] 백엔드 이해
 - [ ] axios 공부
       
+*[리액트 무료 강의](https://www.youtube.com/watch?v=WS6mlo2C-M8&list=PLK7AWkPYwus6emABbBT0hYDTBO2w1tyzn)
 
 ### VSC에 React 세팅하는 방법
 * node.js 설치
