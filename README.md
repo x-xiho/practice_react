@@ -29,7 +29,7 @@ npm start
 
 -------------------------------
 ### react에 powerBI 넣는법
-*[리액트 파워비아이 임베딩 참고영상](https://blog.naver.com/jimin201396/223160116243)
+*[리액트 파워비아이 임베딩 참고](https://blog.naver.com/jimin201396/223160116243)
 1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력  
 
 ```
@@ -40,6 +40,10 @@ powerbi-client-react": "^1.4.0"
 ```
 import { PowerBIEmbed } from 'powerbi-client-react';
 ```
+
+3. 제공되는 코드를 긁어온다.
+   
+5. 리포트 아이디와 토큰을 받아서 소스코드에 그대로 넣는다.
 
 -----------------------
 ### 리액트 페이지 연결하기 ( react-router-dom)
@@ -97,5 +101,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 * 구체적인 페이지 디자인이 필요하다
 * 로그인 구현 어떻게 하는거지
 * 에이징 테크 컨셉을 잘 보여주려면 어떤 UI/UX를 만들어야하는지
-  
+* 토큰 만료 문제!!! -> 파워비아이 유료 버전 사용밖에 답이 없는지?? 어떻게 자동으로 토큰 연장을 하는지 찾아봐야 한다
 
+*[자동 연장 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/refresh-token)
+*[정상적인 임베딩 방법](https://learn.microsoft.com/en-us/power-bi/developer/embedded/register-app?tabs=customers)
