@@ -149,6 +149,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 *[리액트에서 로컬스토리지로 로그인 구현하기](https://velog.io/@choco1drink/React-LocalStorage-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84)
 
 ---
+**이게 뭐야**
+* 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
+
+---
 **현재 문제점**
 * 데이터 문제 -> 시/구까지는 괜찮은데 동으로 가면 지도의 정확성이 많이 떨어진다. 구를 사용할 때도 조금의 에러가 있는듯. 웬만하면 정확한 주소/ 위도 경도가 있는 데이터를 사용해야할듯 하다.
 * 구체적인 페이지 디자인이 필요하다
