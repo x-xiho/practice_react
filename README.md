@@ -36,18 +36,37 @@ await = 비동기니까 기다려
 function 앞에 async를 추가하면 항상 프로미스를 반환한다. 
 리턴이 프로미스면 await를 적용하고 then절을 없앨 수 있다. 
 어싱크, 어웨잇은 동기적바익(순서) 보장한다.
+##### 장점 : 코드가 간결해짐/동기적인 방식을 보장해줌
 
 ```
 const handleClick = async () => {
-let response = await axios.get("")
-console.log(response.data);
-setData(response.data);
+      let response = await axios.get("https://raw.githubusercontent.com/yopy0817/data_example/master/hi.json")
+      console.log(response.data);
+      setData(response.data);
 
+      consol.log(1)
+
+      let response2 = await axios.get("https://raw.githubusercontent.com/yopy0817/data_example/master/hello.json")
+      console.log(response2.data)
+      setData(response2.data)
+
+      consol.log(2)
 }
 ```
 
 
+##### 변경 전  
+```
+axios.get("")
+.then (data => setData(data))
+```
 
+##### 변경 후 
+```
+const handleClick2 = async () => { // 이거 비동기 함수야~
+      const result = await axios.get("") // then절 없이 프로미스 리턴 받을 수 있어~ 
+}
+```
    
 
 ### react 화면 띄우기 
