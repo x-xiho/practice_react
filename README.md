@@ -51,6 +51,9 @@ import { PowerBIEmbed } from 'powerbi-client-react';
 npm i react-router-dom
 ```
 
+정상적으로 설치가 완료되면 json 파일에
+"react-router-dom": "^6.15.0", 가 추가된다. 
+
 **2. react-router-dom import하기**
 ```
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
