@@ -148,6 +148,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ### 리액트에서 로컬스토리지를 사용하여 로그인 구현하기
 *[리액트에서 로컬스토리지로 로그인 구현하기](https://velog.io/@choco1drink/React-LocalStorage-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84)
 
+### 카카오 소셜 로그인
+*[카카오 로그인](https://stack94.tistory.com/entry/React-%EC%B9%B4%EC%B9%B4%EC%98%A4Kakao-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B4%EA%B8%B0)
+
 ---
 **이게 뭐야**
 * 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
