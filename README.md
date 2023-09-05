@@ -123,7 +123,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 --------------------------
 
-### 리액트 개념 설명
+### 리액트 포트폴리오 작성해보기 
 *[참고 사이트](https://webstoryboy.co.kr/1934)
 
 ### 리액트에서 로컬스토리지를 사용하여 로그인 구현하기
