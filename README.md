@@ -16,10 +16,19 @@
 
 ```npx create-react-app <프로젝트 명>```  
 
-*[axios 공식문서](https://axios-http.com/kr/docs/intro)
-* axios 설치  
-```npm install axios```  
-```import axios from```   
+### AXIOS 사용방법
+*[axios 공식문서](https://axios-http.com/kr/docs/intro)  
+```npm install axios --save```  
+```import axios from 'axios' ```
+
+```
+axios.get("URL")
+.then(response => consol.log(response.data))
+```
+axios의 반환은 promise ( fetch와 동일 )
+
+
+   
 
 ### react 화면 띄우기 
 
