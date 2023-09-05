@@ -31,9 +31,20 @@ axios의 반환은 promise ( fetch와 동일 )
 * async await 문법
 *[관련 티스토리](https://coding404.tistory.com/21)
 async = 이거 비동기임  
-await = 기다려
+await = 비동기니까 기다려
 
+function 앞에 async를 추가하면 항상 프로미스를 반환한다. 
+리턴이 프로미스면 await를 적용하고 then절을 없앨 수 있다. 
+어싱크, 어웨잇은 동기적바익(순서) 보장한다.
 
+```
+const handleClick = async () => {
+let response = await axios.get("")
+console.log(response.data);
+setData(response.data);
+
+}
+```
 
 
 
@@ -110,11 +121,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-
 --------------------------
 
 ### 리액트 개념 설명
 *[참고 사이트](https://webstoryboy.co.kr/1934)
+
+### 리액트에서 로컬스토리지를 사용하여 로그인 구현하기
+*[리액트에서 로컬스토리지로 로그인 구현하기](https://velog.io/@choco1drink/React-LocalStorage-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84)
 
 ---
 **현재 문제점**
