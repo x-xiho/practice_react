@@ -22,13 +22,18 @@
 ```import axios from 'axios' ```
 
 ```
-axios.get("URL")
+axios.get("https://raw.githubusercontent.com/yopy0817/data_example/master/hi.json")
 .then(response => consol.log(response.data))
 ```
 axios의 반환은 promise ( fetch와 동일 )
 단 데이터를 전달할 때 한 번에 data: ~~~ 로 주기 때문에 json 변형 과정을 안 거쳐도 됨.
 
 * async await 문법
+*[관련 티스토리](https://coding404.tistory.com/21)
+async = 이거 비동기임  
+await = 기다려
+
+
 
 
 
