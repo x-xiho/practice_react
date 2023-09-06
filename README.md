@@ -16,6 +16,8 @@
 
 ```npx create-react-app <프로젝트 명>```  
 
+rfce 입력하면 포맷 제공
+
 ### AXIOS 사용방법
 *[axios 공식문서](https://axios-http.com/kr/docs/intro)  
 ```npm install axios --save```  
