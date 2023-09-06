@@ -78,6 +78,21 @@ npm start
 
 * 꼭 cd 프로젝트명 먼저 입력 후 미리보기 시작할 것!
 
+
+-------------------------------
+### REACT Hook 
+```
+const [data, setData ] = useState()
+
+useEffect = () => {
+// 함수
+, [] }
+
+const dataRef = useRef()
+
+ 
+```
+
 -------------------------------
 ### react에 powerBI 넣는법
 *[리액트 파워비아이 임베딩 참고](https://blog.naver.com/jimin201396/223160116243)
