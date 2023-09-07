@@ -108,6 +108,7 @@ const dataRef = useRef()
 2. 임베딩할 컴포넌트에 powerbi import
 ```
 import { PowerBIEmbed } from 'powerbi-client-react';
+import { models } from 'powerbi-client'
 ```
 
 3. embed code 임력
