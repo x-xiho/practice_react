@@ -213,7 +213,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ---
 **이게 뭐야**
 * 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
-
+*[횡스크롤 css](https://github.dev/blueWeber/css-horizontal-scroll-contents)
 ---
 **현재 문제점**
 * 데이터 문제 -> 시/구까지는 괜찮은데 동으로 가면 지도의 정확성이 많이 떨어진다. 구를 사용할 때도 조금의 에러가 있는듯. 웬만하면 정확한 주소/ 위도 경도가 있는 데이터를 사용해야할듯 하다.
