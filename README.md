@@ -98,20 +98,61 @@ const dataRef = useRef()
 -------------------------------
 ### react에 powerBI 넣는법
 *[리액트 파워비아이 임베딩 참고](https://blog.naver.com/jimin201396/223160116243)
-1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력  
+1. package.json에 아래와 같이 입력. 마지막 숫자는 최신버전으로 입력하고 npm install
+*[pwerbi-client-react 최신 버전 확인](https://www.npmjs.com/package/powerbi-client-react?activeTab=readme)
 
 ```
-powerbi-client-react": "^1.4.0" 
+"powerbi-client-react": "^1.4.0" 
 ```
 
-2. App.js에 다음과 같이 입력
+2. 임베딩할 컴포넌트에 powerbi import
 ```
 import { PowerBIEmbed } from 'powerbi-client-react';
 ```
 
-3. 제공되는 코드를 긁어온다.
-   
-5. 리포트 아이디와 토큰을 받아서 소스코드에 그대로 넣는다.
+3. embed code 임력
+```
+<PowerBIEmbed
+	embedConfig = {{
+		type: 'report',   // Supported types: report, dashboard, tile, visual, qna, paginated report and create
+		id: '<Report Id>',
+		embedUrl: '<Embed Url>',
+		accessToken: '<Access Token>',
+		tokenType: models.TokenType.Aad, // Use models.TokenType.Aad for SaaS embed
+		settings: {
+			panes: {
+				filters: {
+					expanded: false,
+					visible: false
+				}
+			},
+			background: models.BackgroundType.Transparent,
+		}
+	}}
+
+	eventHandlers = {
+		new Map([
+			['loaded', function () {console.log('Report loaded');}],
+			['rendered', function () {console.log('Report rendered');}],
+			['error', function (event) {console.log(event.detail);}],
+			['visualClicked', () => console.log('visual clicked')],
+			['pageChanged', (event) => console.log(event)],
+		])
+	}
+
+	cssClassName = { "embededReport" }
+
+	getEmbeddedComponent = { (embeddedReport) => {
+		window.report = embeddedReport;
+	}}
+/>
+```
+
+4. 마이크로소프트 사이트에서 try it 버튼을 눌러 각종 소스를 받아온다.
+*[Get Report](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/get-report)
+* reportID는 powerbi 홈페이지 주소창에서 긁어오기
+* accessToken은 powerbi 작업물 개발자도구에서 copy(accessToken) 입력하여 복사붙여넣기
+
 
 -----------------------
 ### 리액트 페이지 연결하기 ( react-router-dom)
