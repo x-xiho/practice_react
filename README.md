@@ -213,6 +213,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ### css button 모은집
 *[](https://inpa.tistory.com/entry/CSS-%F0%9F%92%8D-%EB%B2%84%ED%8A%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%AA%A8%EC%9D%8C)
 
+*[리액트 슬릭 예시 코드](https://github.com/dtvi2412/use-react-slick-2022)
+
 ---
 **이게 뭐야**
 * 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
