@@ -1,9 +1,6 @@
 #react 연습 < 나 혼자 보는 메모장 >
 ---
-- [ ] power BI 사용법 익히기
-- [ ] 데이터 시각화 자료 레퍼런스 모으기 -> 지도 위주면 좋고
 - [ ] azure 사용방법 익히기 -> 녹화강의 복습
-- [ ] 리액트 훅 익히기
 - [ ] 백엔드 이해
 - [ ] axios 공부
       
@@ -16,7 +13,7 @@
 
 ```npx create-react-app <프로젝트 명>```  
 
-rfce 입력하면 포맷 제공
+* rfce 입력하면 포맷 제공
 
 ### AXIOS 사용방법
 *[axios 공식문서](https://axios-http.com/kr/docs/intro)  
@@ -34,6 +31,8 @@ axios의 반환은 promise ( fetch와 동일 )
 *[관련 티스토리](https://coding404.tistory.com/21)
 async = 이거 비동기임  
 await = 비동기니까 기다려
+
+-> 동기: 순차적 진행 / 비동기: 비순차적 진행. 완료되지 않아도 작업
 
 function 앞에 async를 추가하면 항상 프로미스를 반환한다. 
 리턴이 프로미스면 await를 적용하고 then절을 없앨 수 있다. 
@@ -70,16 +69,6 @@ const handleClick2 = async () => { // 이거 비동기 함수야~
 }
 ```
    
-
-### react 화면 띄우기 
-
-```
-cd <프로젝트명>
-npm start
-```
-
-* 꼭 cd 프로젝트명 먼저 입력 후 미리보기 시작할 것!
-
 
 -------------------------------
 ### REACT Hook 
@@ -189,6 +178,7 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 </Route>
 ```
 특정 컴포넌트를 고정시키고 새로운 컴포넌트를 띄우고 싶을때 사용함
+대신 상위 컴포넌트에 <Outlet/> 적어줘야함.
 
 ---------------------------------
 ### 부트스트랩 설치
