@@ -207,6 +207,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 --------------------------
 
+### react-slick 버튼 바꾸기
+```
+
+const slider = useRef(null)
+
+<div>
+  <button onClick={()=>slider.current.slickPrev()}>Prev</button>
+  <button onClick={()=>slider.current.slickNext()}>Next</button>
+</div>
+
+<Slider ref= {slider} {...settings}>
+
+```
+
+
+--------------------------
+
 ### 리액트 포트폴리오 작성해보기 
 *[참고 사이트](https://webstoryboy.co.kr/1934)
 
