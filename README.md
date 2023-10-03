@@ -180,6 +180,22 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 특정 컴포넌트를 고정시키고 새로운 컴포넌트를 띄우고 싶을때 사용함
 대신 상위 컴포넌트에 <Outlet/> 적어줘야함.
 
+--------------------------------------------
+
+### cors 허용
+```
+npm install cors
+```
+
+```
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+// CORS 미들웨어 사용
+app.use(cors());
+```
+
 ---------------------------------
 ### 부트스트랩 설치
 ```
