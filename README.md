@@ -222,7 +222,7 @@ const slider = useRef(null)
 ```
 
 *[슬릭 사용방법](https://velog.io/@kopu94/Slick-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C)
-
+*[슬릭 예시](https://github.dev/dtvi2412/use-react-slick-2022)
 --------------------------
 
 ### 리액트 포트폴리오 작성해보기 
