@@ -239,6 +239,7 @@ const slider = useRef(null)
 
 *[리액트 슬릭 예시 코드](https://github.com/dtvi2412/use-react-slick-2022)
 
+*[다양한 라디오 버튼](https://aamm3929.tistory.com/3)
 ---
 **이게 뭐야**
 * 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
