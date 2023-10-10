@@ -261,3 +261,4 @@ const slider = useRef(null)
 
 *[자동 연장 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/refresh-token)
 *[정상적인 임베딩 방법](https://learn.microsoft.com/en-us/power-bi/developer/embedded/register-app?tabs=customers)
+*[슬라이서 컨트롤?](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/control-report-slicers)
