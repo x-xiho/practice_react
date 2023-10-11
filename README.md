@@ -276,4 +276,6 @@ const slider = useRef(null)
 
 *[powerbi 깃허브 공식](https://github.com/microsoft/PowerBI-Client-React) 
 
+*[Embed a Power BI item in a React application](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/powerbi-client-react)
+
  
