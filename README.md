@@ -252,16 +252,28 @@ const slider = useRef(null)
 * 소셜 로그인시 왜 kakao 어쩌구가 key로 들어오는거지
 *[횡스크롤 css](https://github.dev/blueWeber/css-horizontal-scroll-contents)
 ---
-**현재 문제점**
-* 데이터 문제 -> 시/구까지는 괜찮은데 동으로 가면 지도의 정확성이 많이 떨어진다. 구를 사용할 때도 조금의 에러가 있는듯. 웬만하면 정확한 주소/ 위도 경도가 있는 데이터를 사용해야할듯 하다.
-* 구체적인 페이지 디자인이 필요하다
-* 로그인 구현 어떻게 하는거지
-* 에이징 테크 컨셉을 잘 보여주려면 어떤 UI/UX를 만들어야하는지
-* 토큰 만료 문제!!! -> 파워비아이 유료 버전 사용밖에 답이 없는지?? 어떻게 자동으로 토큰 연장을 하는지 찾아봐야 한다
 
-*[자동 연장 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/refresh-token)
-*[정상적인 임베딩 방법](https://learn.microsoft.com/en-us/power-bi/developer/embedded/register-app?tabs=customers)
-*[슬라이서 컨트롤?](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/control-report-slicers)
-*[powerbi 임베딩 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/powerbi-client-react)
-*[임베딩 깃허브 무물](https://github.com/microsoft/PowerBI-visuals-ChicletSlicer/issues/66)
-*[powerbi 깃허브 공식](https://github.com/microsoft/PowerBI-Client-React)
+**현재 문제점**
+
+* 로그인과 로그아웃 구현 -> 유저 데이터와 라이프스타일 데이터 관리
+* 결과 페이지에서 관심 목록 표현 어떻게 제작할 것인지 -> 관심 / 삭제가 한 번에 바로 이루어져야 함.
+  
+* PowerBI 토큰 만료 문제 -> 토큰 사용 시간이 최대 1시간이다. 자동 연장 방법 혹은 연장 없이 계속 쓸 수 있는 방법이 필요하다
+* PowerBI 슬라이서 컨트롤 -> 리액트에서 powerBI UI를 제어할 수 있는 방법을 찾아야 한다.
+* 
+* Azure 공부하기 == Azuer를 통해 호스팅 및 배포하기 -> 지금까지 열심히 만들었는데 이런저런 문제로 호스팅 안되면 어떡하지? 다시 만들어야 하나?
+  
+
+*[자동 연장 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/refresh-token) 
+
+*[정상적인 임베딩 방법](https://learn.microsoft.com/en-us/power-bi/developer/embedded/register-app?tabs=customers) 
+
+*[슬라이서 컨트롤?](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/control-report-slicers) 
+
+*[powerbi 임베딩 방법](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/powerbi-client-react) 
+
+*[임베딩 깃허브 무물](https://github.com/microsoft/PowerBI-visuals-ChicletSlicer/issues/66) 
+
+*[powerbi 깃허브 공식](https://github.com/microsoft/PowerBI-Client-React) 
+
+ 
