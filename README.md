@@ -151,6 +151,40 @@ import { models } from 'powerbi-client'
 * accessToken은 powerbi 작업물 개발자도구에서 copy(accessToken) 입력하여 복사붙여넣기
 
 
+
+5. 슬라이서 컨트롤
+```
+  const powerbibtn = async () => {
+    const basicFilter = {
+      $schema: "http://powerbi.com/product/schema#basic",
+      target: {
+        table: "12_04_08_E_CCTV정보_서울_20230710 - 복사본_종로구",
+        hierarchy: "관리기관명",
+        hierarchyLevel: "설치목적구분"
+      },
+      operator: "In",
+      values: ["서울특별시 서대문구청"],
+      filterType: models.FilterType.BasicFilter
+    };
+
+    console.log("실행중 실행중");
+
+    if (window.report) {
+      const pages = await window.report.getPages();
+      const page = pages[0]; // 예를 들어 첫 번째 페이지 사용
+
+      const visuals = await page.getVisuals();
+      const visual = visuals[1]; // 예를 들어 첫 번째 시각적 요소 사용
+      console.log("비주얼 로고 찍음", visual);
+      // console.log("basicFilter 찍음",basicFilter);
+
+      await visual.setSlicerState({
+        filters: [basicFilter]
+      });
+
+    }
+  }
+```
 -----------------------
 ### 리액트 페이지 연결하기 ( react-router-dom)
 
