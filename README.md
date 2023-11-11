@@ -1,11 +1,9 @@
 
 #react 연습 < 나 혼자 보는 메모장 >
 ---
-- [ ] azure 사용방법 익히기 -> 강의 복습
-
 - [ ] 설문조사 중 페이지 이동 시 경고 메시지 띄워주기 / 나가면 저장이 되지 않습니다 등 -> react prompt
-- [ ] 추천 결과 뜨기 전에 스피너 보여주기 / 로딩 페이지 -> 스피너 
-      
+- [ ] 백엔드랑 연동...
+- [ ] 
 *[리액트 무료 강의 (환경세팅에서 배포까지)](https://www.youtube.com/watch?v=WS6mlo2C-M8&list=PLK7AWkPYwus6emABbBT0hYDTBO2w1tyzn)
 
 ### VSC에 React 세팅하는 방법
