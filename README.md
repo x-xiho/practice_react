@@ -308,5 +308,7 @@ const slider = useRef(null)
 
 ----------------------
 tokens
-*[Embedded analytics access tokens](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-tokens?tabs=embed-for-customers)
- 
+*[Embedded analytics access tokens](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-tokens?tabs=embed-for-customers)  
+
+
+*[Embed Token - Reports GenerateTokenForCreateInGroup](https://learn.microsoft.com/en-us/rest/api/power-bi/embed-token/reports-generate-token-for-create-in-group)
