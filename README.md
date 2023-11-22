@@ -305,4 +305,8 @@ const slider = useRef(null)
 
 *[Embed a Power BI item in a React application](https://learn.microsoft.com/en-us/javascript/api/overview/powerbi/powerbi-client-react)
 
+
+----------------------
+tokens
+*[Embedded analytics access tokens](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-tokens?tabs=embed-for-customers)
  
